@@ -1,0 +1,88 @@
+/* CSS Document */
+
+/* Author: Mason Goolden
+   Date: 01/11/2023
+   File Name: styles.css */
+
+/* CSS Browser Reset */
+body, header, nav, main, footer, h1, h2, div, img, ul, figure, figcaption, section, article, aside, blockquote, table  {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+header {
+    background-color: #f10000;
+    margin: 10px;
+    height: 450px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    
+}
+h2 {
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+
+main {
+    background-color: #f10000;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.menus {
+  background: #000000;
+  grid-area: menus;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  color: red;
+  padding-left: 5em;
+  padding-right: 16em;
+  border: 10px solid #000000;
+  border-radius: 5px;
+font-family: 'Press Start 2P', cursive;
+    margin: 10px;
+}
+.menus * {
+  padding: auto auto;
+}
+
+nav {
+    text-align: center;
+    
+    
+}
+
+nav li {
+    font-size: 1.15em;
+    padding-left: 3.5em;
+    list-style-type: none;
+    background-color: black;
+}
+
+nav li a {
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-decoration: none;
+    
+    padding: .2em 1em;
+    margin: 0 auto;
+}
+
+.ninlogo {
+    margin: 0 auto ;
+    display: block;
+    width: 50%;
+}
+
+footer {
+    background-color: #f10000;
+}

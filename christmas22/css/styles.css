@@ -1,0 +1,346 @@
+/* CSS Document */
+
+/* CSS Browser Reset */
+body, header, nav, main, section, ul , li, a, footer, img, h1, h2, h3{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+  
+body {
+    background-color: darkred;
+    background-image: url("../images/heroimagechristmas.png")
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1 {
+    background-color: green;
+}
+
+h2 {
+    background-color: brown;
+    text-align: center;
+}
+
+.ptwo {
+    margin: -25% 0 25% 50%;
+    background-color: black;
+    color: white;
+    font-size: 1.25em;
+    border: solid;
+}
+
+/* Style rules for our header */
+header{
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+header img {
+    max-width: 50%;
+    margin: 0 auto;
+     height: auto;
+    background-size: 100%;
+}
+
+header h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 5em;
+    background-color: darkgreen;
+    border: solid;
+    opacity: 0.6;
+}
+
+/* Style rules for our navigation */
+nav {
+    background-color: darkred;
+    display: block;
+}
+
+nav li {
+    float: none;
+    width: 120px;
+    border-top: none;
+    display: inline-block;
+    font-size: 1.25em;
+    border-right: 1px solid #e5e9fc;
+    text-decoration: none;
+    text-decoration-color: white;
+    text-align: center;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+nav ul {
+    padding: 0 5%;
+}
+
+nav a{
+    display: block;
+    padding: 3% 10px;
+    padding-top: 20px;
+  background-color: #7E1515;
+   text-align: center;
+    text-size: .6em;
+    font-weight: bold;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #7F0101;
+}
+
+
+/* Style rules for main sections */
+section img {
+ width: 100%;
+    max-height: 300px;
+    
+}
+
+#box1 {
+    background-color: #000;
+    color: #fff;
+    opacity: .7;
+}
+
+.imgtwo {
+    margin: 100px;
+}
+
+/* Style rules for item sections */
+.cssGrid {
+    display: block;
+    width: 100%;
+    padding: 3% 0 0;
+}
+
+#item1 {
+    background-color: #A1C181;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+}
+#item2 {
+    background-color: #619B8A;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+}
+#item3 {
+    background-color: #A1C181;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+}
+#item4 {
+    background-color: #619B8A;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+}
+#item5 {
+    background-color: #A1C181;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+}
+#item6 {
+    background-color: #619B8A;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+}
+#item7 {
+    background-color: #A1C181;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+}
+#item8 {
+    background-color: #619B8A;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+}
+#item9 {
+    background-color: #A1C181;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+}
+
+/* Start CSS Grid Code here */
+@supports (grid-area: auto) {
+}
+
+    /* Media Query Tablet */
+    @media screen and (min-width: 600px) {
+        
+        /* Apply CSS Grid */
+        .cssGrid {
+            display: grid;
+            width: 100%;
+            grid-template-columns: 45% 45%;
+            grid-template-areas: 
+                "it1 it1"
+                "it2 it3"
+                "it4 it4"
+                "it5 it6"
+                "it7 it7"
+                "it8 it9";
+            grid-gap: 1% 1%;
+            margin: 10% 0%; 
+            justify-content: center;
+        }
+        
+        #item1 {
+            grid-area: it1;
+            background-color: #A1C181;
+            border: 2px #FE7F2D solid;
+        }
+        
+        #item2 {
+            grid-area: it2;
+            background-color: #619B8A;
+            border: 2px #FE7F2D solid;
+        }
+        
+        #item3 {
+            grid-area: it3;
+            background-color: #619B8A;
+            border: 2px #FE7F2D solid;
+        }
+        
+        #item4 {
+            grid-area: it4;
+            background-color: #A1C181;
+            border: 2px #FE7F2D solid;
+        }
+        
+        #item5 {
+            grid-area: it5;
+            background-color: #619B8A;
+            border: 2px #FE7F2D solid;
+        }
+        
+        #item6 {
+            grid-area: it6;
+            background-color: #619B8A;
+            border: 2px #FE7F2D solid;
+        }
+        
+        #item7 {
+            grid-area: it7;
+            background-color: #A1C181;
+            border: 2px #FE7F2D solid;
+        }
+        
+        #item8 {
+            grid-area: it8;
+            background-color: #619B8A;
+            border: 2px #FE7F2D solid;
+        }
+        
+        #item9 {
+            grid-area: it9;
+            background-color: #619B8A;
+            border: 2px #FE7F2D solid;
+        }
+        
+    } 
+    /* Closing Media Query Tablet */
+    
+    /* Media Query Desktop */
+    @media screen and (min-width: 1000px) {
+        
+         /* Apply CSS Grid */
+        .cssGrid {
+            display: grid;
+            width: 100%;
+            grid-template-columns: 30% 30% 30%;
+            grid-template-areas: 
+                "it1 it2 it3"
+                "it4 it5 it6"
+                "it7 it8 it9";
+            grid-gap: 1% 1%;
+            margin: 10% 0%; 
+            justify-content: center;
+        }
+        
+        /* Row 1 */
+        #item1 {
+            grid-area: it1;
+            background-color: #A1C181;
+            border: 2px #FE7F2D solid;
+        }
+        
+        #item2 {
+            grid-area: it2;
+            background-color: #619B8A;
+            border: 2px #FE7F2D solid;
+        }
+        
+        #item3 {
+            grid-area: it3;
+            background-color: #A1C181;
+            border: 2px #FE7F2D solid;
+        }
+        /* End Row 1 */
+        /* Row 2 */
+        #item4 {
+            grid-area: it4;
+            background-color: #619B8A;
+            border: 2px #FE7F2D solid;
+        }
+        
+        #item5 {
+            grid-area: it5;
+            background-color: #A1C181;
+            border: 2px #FE7F2D solid;
+        }
+        
+        #item6 {
+            grid-area: it6;
+            background-color: #619B8A;
+            border: 2px #FE7F2D solid;
+        }
+        /* End Row 2 */
+        /* Row 3 */
+        #item7 {
+            grid-area: it7;
+            background-color: #A1C181;
+            border: 2px #FE7F2D solid;
+        }
+        
+        #item8 {
+            grid-area: it8;
+            background-color: #619B8A;
+            border: 2px #FE7F2D solid;
+        }
+        
+        #item9 {
+            grid-area: it9;
+            background-color: #A1C181;
+            border: 2px #FE7F2D solid;
+        }
+        /* End Row 3 */
+        
+        
+    } /* Closing Media Query Desktop */
+    
+    /* Media Query Large Screen */
+    @media screen and (min-width: 1250px) {
+        .cssGrid {
+            width: 1250px;
+            margin: 0 auto;
+        }
+    }
+ 
+/* End CSS Grid Code here */
+
+footer {
+    background-color: darkgreen;
+    border-style: solid;
+    text-align: center;
+    
+}

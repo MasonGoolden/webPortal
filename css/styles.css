@@ -1,0 +1,111 @@
+/* CSS Document */
+
+/*
+
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Monoton', cursive;
+font-family: 'Ultra', serif;
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Monoton&family=Ultra&display=swap');
+
+body {
+background-color: #B93538;
+}
+
+main {
+
+}
+
+header {
+
+}
+
+
+
+
+
+
+#intro {
+    color: white;
+    background-color: #262222;
+    padding: 10px 20px;
+    border: 20px solid grey;
+    margin-top: 10px;
+}
+
+#intro h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 2.9em;
+   text-align: center;
+    margin: 0 0 0 0;
+}
+
+#intro h2 {
+    font-size: 1.4em;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+#h2 {
+    font-size: 1.4em;
+}
+
+#intro img {
+    height: 250px;
+    width: 300px;
+    max-width: 40%;
+    margin-left: 41.5%;
+}
+
+#about {
+
+}
+
+#about h1 {
+   display: inline-block;
+    margin-left: 45.5%;
+    margin-top: 5%; 
+    border: solid grey;
+    background-color: brown;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+}
+
+#about h3 {
+    font-size: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    background-color:antiquewhite;
+    border:solid grey 1.1em;
+}
+
+.webProjects2{
+    background-color: brown;
+    border: solid gray;
+    font-size: 2em;
+    text-align: center;
+    width: 300px;
+    margin: 2% auto;
+}
+
+.webProjects img {
+    margin: 2%;
+	border-radius: 10px;
+}
+
+.webProjects {
+    text-align: center;
+	background-color:#222222;
+	margin-bottom: 10%;
+	
+}
+
+
+footer {
+    text-align: center;
+    background-color: dimgrey;
+    font-size: 1.2em;
+}
